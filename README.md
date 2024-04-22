@@ -10,7 +10,55 @@
 
 <img src="https://i.ibb.co/SBkykGT/image.png" alt="project-screenshot" width="400" height="400/">
 
-  
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone the project</p>
+
+```
+gh repo clone paley777/asesmenkondisigedung
+```
+
+<p>2. Go to the project directory</p>
+
+```
+cd asesmenkondisigedung
+```
+
+<p>3. Install dependencies</p>
+
+```
+composer install
+```
+
+<p>4. Delete Cache</p>
+
+```
+php artisan cache:clear
+```
+
+<p>5. Generate Laravel Key</p>
+
+```
+php artisan key:generate
+```
+
+<p>6. Make Storage Link</p>
+
+```
+php artisan storage:link
+```
+
+<p>7. Migrate</p>
+
+```
+php artisan migrate
+```
+
+<p>8. Start the server</p>
+
+```
+php artisan serve
+```
   
 <h2>🧐 Features</h2>
 
@@ -28,3 +76,7 @@ Technologies used in the project:
 
 *   Codeigniter 4.0
 *   PHP 7.4 - 8.0
+
+<h2>💖Like my work?</h2>
+
+Saran pengembangan silakan hubungi email berikut:<p>valleryan1212@gmail.com</p>
