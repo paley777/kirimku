@@ -1,67 +1,30 @@
-# CodeIgniter 4 Application Starter
+<h1 align="center" id="title">Codeigniter-based Data Management and Data Visualization System</h1>
 
-## What is CodeIgniter?
+<p align="center"><img src="https://socialify.git.ci/paley777/kirimku/image?description=1&amp;descriptionEditable=Codeigniter-based%20Data%20Management%20and%20Data%20Visualization%20System&amp;font=Inter&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Charlie%20Brown&amp;theme=Light" alt="project-image"></p>
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+<p id="description">This system is based on the Codeigniter 4.0 framework. This system aims to implement basic data management (CRUD) visualize data in the form of pie charts and display certain amounts of data. This system was created based on the case of express delivery services which require the system to have a feature for adding delivery data. This system is in Indonesian.</p>
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+<h2>Project Screenshots:</h2>
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+<img src="https://i.ibb.co/w0j7yyZ/image.png" alt="project-screenshot" width="400" height="400/">
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+<img src="https://i.ibb.co/SBkykGT/image.png" alt="project-screenshot" width="400" height="400/">
 
-## Installation & updates
+  
+  
+<h2>🧐 Features</h2>
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+Here're some of the project's best features:
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+*   Database Management (CRUD)
+*   Data visualization in the form of a pie chart
+*   The simple logic of express delivery services
 
-## Setup
+  
+  
+<h2>💻 Built with</h2>
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+Technologies used in the project:
 
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> **Warning**
-> The end of life date for PHP 7.4 was November 28, 2022. If you are
-> still using PHP 7.4, you should upgrade immediately. The end of life date
-> for PHP 8.0 will be November 26, 2023.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+*   Codeigniter 4.0
+*   PHP 7.4 - 8.0
